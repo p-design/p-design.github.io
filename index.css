@@ -89,3 +89,15 @@ section h1 span::after{
     background-color: #FFEF99;
     border-radius: 1px;
 }
+
+#work img{
+    width:250px;
+}
+
+#work a{
+    color:#CED4E6;
+}
+
+#work a:visited{
+    color:#CED4E6;
+}
