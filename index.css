@@ -19,7 +19,7 @@ header ul{
 header li{
     font-family: priori-sans, sans-serif;
     font-weight:normal;
-    font-size: 32px;
+    font-size: 27px;
     margin:0 22px;
 }
 
@@ -43,7 +43,7 @@ header li a::before{
 }
 
 .logo{
-    height:280px;
+    height:230px;
     margin-top: 70px;
     background-image: url("logo.svg");
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ section{
 }
 
 section h1 span{
-    font-size: 37px;
+    font-size: 32px;
     font-weight: normal;
     font-family: priori-sans, sans-serif;
     margin:30px;
