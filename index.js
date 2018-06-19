@@ -25,14 +25,14 @@ links.forEach(link => {
  */
 const scrollTo = (target, offset) => {
   anime({
-    targets: { scroll: document.documentElement.scrollTop },
+    targets: { scroll: window.scrollY },
     scroll: target.offsetTop + offset,
     // アニメーション時間 (ミリ秒)
     duration: 400,
     // アニメーションの動きの種類 (http://animejs.com/documentation/#penner)
     easing: 'easeInOutQuart',
     run: (a) => {
-      document.documentElement.scrollTop = a.animations[0].currentValue
+      window.scrollTo(0, a.animations[0].currentValue)
     },
   })
 }
