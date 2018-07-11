@@ -96,6 +96,10 @@ section h1 span::after{
     border-radius: 1px;
 }
 
+#work div{
+    margin-bottom:15px;
+}
+
 #work img{
     width:250px;
 }
