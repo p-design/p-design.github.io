@@ -111,3 +111,9 @@ section h1 span::after{
 #work a:visited{
     color:#CED4E6;
 }
+
+@media(max-width:700px){
+    #video iframe{
+        width:auto;
+    }
+}
